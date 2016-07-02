@@ -1,124 +1,88 @@
-![Build Status](https://travis-ci.org/PanosSakkos/personal-jekyll-theme.svg?branch=master)
-[![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+If there's any issue you are facing in setting up DevJournal theme, I'm there for you. Just create an issue in this repository (http://github.com/hemangsk/DevJournal), (https://help.github.com/articles/creating-an-issue/) and I'll get back to you asap. :smile: :+1:<br>
 
-# { Personal } Jekyll Theme
+![alt-tag](https://farm8.staticflickr.com/7062/26385542743_1c7e6b8d9e_o.png) 
 
-{ Personal } is a free responsive Jekyll theme, about you :wink:
+![alt-tag](https://farm8.staticflickr.com/7320/26385629583_eac6861c48_o.png)
 
-You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-theme/)!
 
-## What value does { Personal } add
+![alt-tag](https://farm8.staticflickr.com/7300/26895705412_d6365b9a14_o.png)
 
-* Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
-  * Modern and minimal design
-    * Responsive templates for home page, blog archive and posts. Looks great on mobile, tablet, and desktop devices
-    * Sweet animations
-    * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers
-  * Timeline
-    * Tell your story so far with a sleek timeline of dates, pictures and descriptions
-  * White on black text, making the reading experience tireless
-  * Google analytics  
-* Customization and full control of your website and blog through the site config
-* Customization of the website's coloring
-* Blogging functionality
-  * Preview of the latest post in the home page
-  * Archive page
-  * Syntax highlighting
-  * Emojis
-  * Gesture navigation in archive and post pages by swiping
-  * Hashtags
-  * Categories
-  * Disqus comments
-  * Bootstrap share buttons
-  * RSS feed
-* Author blurb under the posts
-* 404 page
-* iOS and Android Web App mode
-* Enforcing of https protocol
-* Protection from email harvesting
-* Sitemap
-* Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
 
-## { Personal } à la JekyllNow
 
-Want to get { Personal } without messing with jekyll installations and terminal commands?
+![alt-tag](https://farm8.staticflickr.com/7370/26956762406_cbfa7a2139_o.png)
 
-  1. Fork the personal-jekyll-theme repository
-  2. Rename the forked repository to yourgithubusername.github.io
-  3. Visit https://yourgithubusername.github.io
-  4. Start modifying the \_config.yml and editing your blog's posts from Github's online editor or a third party online editor (i.e. [Prose](https://prose.io/))
+#### To create a new post :sunglasses:
 
-## Documentation
+- Create a .markdown file inside _posts folder.
+- Name the file according to the standard jekyll format.
+```
+   2016-03-30-i-love-design.markdown
+```
+- Write the Front Matter and content in the file.
+    ```
+          ---
+          layout: post | default | page
+          title:  String Post Title
+          date:   Time Stamp
+          categories: String | Array of Strings Category / Categories 
+          ---
+    ```
+    
+    ```
+        ---
+        layout: post
+        title:  "The One with the Blackout"
+        date:   2016-03-30 19:45:31 +0530
+        categories: ["life", "friends"]
+        ---
+    ```  
 
-The theme contains documentation in the form of [blog posts](https://panossakkos.github.io/personal-jekyll-theme/blog/index.html).
 
-## Screenshots
-### Header
-![Intro](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/index.jpg)
-### About
-![About](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/about.jpg)
-### Latest post preview
-![Blog](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blog.jpg)
-### Timeline
-![Timeline](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/timeline.jpg)
-### Blog Archive
-![Archive](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/archive.jpg)
-### Gesture navigation instructions
-![Instructions](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/swipe.jpg)
-### Post page
-![Post](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/post.jpg)
-### Author blurb
-![Blurb](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blurb.jpg)
-### Hashtags
-![Tags](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/tags.jpg)
-### Categories
-![Categories](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/categories.jpg)
-### 404
-![404](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/404.jpg)
-### Mobile rendering
-![Web App](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/web-app.jpg)
-### Web App mode
+![alt-tag](https://farm8.staticflickr.com/7660/26895189602_170af0a783_o.png)
+![alt-tag](https://farm8.staticflickr.com/7594/26385450183_37116c6d32_o.png)
 
-![iOS](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/ios.jpg)
 
-![Android](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/pinned.jpg)
+####Create new pages, such a breeze! :smile:
+- Create a .md file in the root directory.
+- Name the file with the desired page link name.
+```
+   about.md
+```
+```
+   design.md
+```
+- Write the Front Matter and content in the file.
+```
+          ---
+          layout: page
+          title: String Title of the webpage
+          permalink: / String / Permalink for the webpage
+          tagline: String Optional DevJournal Feature : Tagline for the page
+          ---
+```      
+```
+        ---
+        layout: page
+        title:  "Science"
+        permalink:   /science/
+        tagline : "Humanity is overrated."
+        ---
+```      
 
-## How to run locally
+![alt-tag](https://farm8.staticflickr.com/7124/26895188812_65218d8652_o.png)
 
-First, you need to install jekyll and the dependencies of { Personal } by running:
 
-````
-./scripts/install
-````
+That's all folks.
 
-Then, you can build and serve your website by simply running:
+>Super Flexible, Minimal, Text Based jekyll theme for the kickass geek :sunglasses:
 
-````
-./scripts/serve-production
-````
+####It'd be really cool if you,<br>
+1.  Create some new feature and would like to integrate in DevJournal. Pull requests are most invited.
+2.  Open issues if you find bugs.
+3.  Just so you know, the license type is MIT.
 
-## Wiki
 
-Don't forget to list your { Personal } blog in the [Blogs using { Personal }](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Blogs-using-%7B-Personal-%7D) wiki page in order to drive some traffic to your website :wink:
+>Its' all about being community driven.  :bus: :bus: :dash:
 
-## Integrating bug fixes and features into your old fork
+Have a great day!  :smile: :smile: :smiley:
 
-Have you published your own website by forking { Personal } and now you want to get the latest bug fixes and features from this repo into your website?
-Then check [this](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Upgrading-your-%7B-Personal-%7D-website-with-our-latest-bug-fixes-and-features) out.
-
-## OSS used in { Personal }
-
-One of the reasons { Personal } is real is the following OSS projects:
-
-  1. [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
-  2. [hammer.js](https://hammerjs.github.io/)
-  3. [highlightjs](https://highlightjs.org/)
-  4. [RRSSB](https://github.com/kni-labs/rrssb)
-  5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
-  6. [typed.js](https://github.com/mattboldt/typed.js/)
-
-## Supporting the repo
-
-Proposals, pull requests and issues are more than welcome, let's make the web a bit more beautiful and secure :wink:
-
-In case you want to say thank you by donating Bitcoins to all the contributors, [this](https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi) is our address.
