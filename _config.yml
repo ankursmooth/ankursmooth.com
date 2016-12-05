@@ -46,21 +46,21 @@ author:
       title: Backend Developer
       started: 2015
       duration: (April 2015) & (October 2015 - November 2015)
-      description: "In Hostel Management, developed backend and API to be used in android application. https://github.com/ankursmooth/p05-ug-hostel-allocation/ In CADAC, created the Java beans class responsible for interfacing with the database and the servlets. Also corrected the bugs in servlets classes. \n https://github.com/cadac-image-share/cadac "
+      description: "In Hostel Management, developed backend and API to be used in android application. <br>https://github.com/ankursmooth/p05-ug-hostel-allocation/ <br>In CADAC, created the Java beans class responsible for interfacing with the database and the servlets. Also corrected the bugs in servlets classes. https://github.com/cadac-image-share/cadac "
 
   educationHistory:
     - education1:
       organization: The LNM Institute of Information Technology
       location: Jaipur, India
       degree: Bachelor of Technology
-      major: Computer Science and Engineering
+      major: Computer Science and Engineering, 7.90/10 CGPA
       started: 2013
       duration: (2013 - 2017(expected))
     - education2:
       organization: Oxford Senior Secondary School
       location: New Delhi, India
-      degree: 9.8 CGPA in X
-      major: 73% in XII
+      degree: 73% in XII (AISSCE, CBSE)
+      major: Science <br>9.8/10 CGPA in X (AISSE, CBSE)
       started: "-"
       duration: 2010-2013
   languages:
