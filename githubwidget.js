@@ -80,7 +80,7 @@ function topRepos(a) {
  a.sort(function(a, b) {
   return a.stargazers_count === b.stargazers_count ? 0 : a.stargazers_count > b.stargazers_count ? -1 : 1
  });
- a = a.slice(0, 3);
+ a = a.slice(0, 4);
  var b = [],
   c;
  for (c in a) {
