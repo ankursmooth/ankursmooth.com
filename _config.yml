@@ -14,8 +14,8 @@ exclude: [vendor]
 # Author settings
 author:
   name: Ankur Arora
-  title: B.Tech. Final year, The LNMIIT
-  address: Jaipur, India
+  title: Product Engineer, SLK Software
+  address: Bengaluru, India
   email: ankursmooth@gmail.com
   link: http://ankursmooth.com
   weibo:
@@ -28,11 +28,18 @@ author:
     - work1:
       company: SLK Software Services Pvt. Ltd.
       location: Banglore, India
+      title: Product Engineer
+      started: 2017
+      duration: (July 2017 - Present)
+      description: "Design and Implement Solutions for Robotic Automation"
+    - work2:
+      company: SLK Software Services Pvt. Ltd.
+      location: Banglore, India
       title: Product Engineer Intern
       started: 2016
       duration: (May 2016 - July 2016 and October 2016 - March 2017)
       description: "Explored various databases: Cassandra, Neo4j. worked on 2D and 3D visualization of data. Worked on webapp linking to automation tool of business process with real time updates."
-    - work2:
+    - work3:
       company: EventGraphia
       location: Jaipur, India
       title: PHP Developer Intern
